@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS ticket (
-  id int,
-  name text
+CREATE TABLE t1 (
+  id SERIAL PRIMARY KEY,
+  name TEXT NOT NULL
 );
